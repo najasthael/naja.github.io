@@ -1,125 +1,42 @@
 # _config.yml
 
-# Informations personnelles
-title: Naja Ferreira
-description: >
-  Étudiante en Master 2 Traitement Automatique des Langues à l'Université Grenoble Alpes.
-  Spécialisée en NLP, Machine Learning et Ingénierie Linguistique.
-  À la recherche d'un stage en ingénierie NLP.
+title: "Naja Ferreira"
+description: "Étudiante en Master 2 TAL/NLP - Ingénierie Linguistique & Machine Learning"
 baseurl: ""
 url: "https://najasthael.github.io"
-github_username: najasthael
 
-# Configuration du site
-locale: "fr-FR"
-timezone: "Europe/Paris"
-future: false
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-# Thème
+# Thème (si vous utilisez Jekyll plus tard)
 theme: jekyll-theme-minimal
-remote_theme: pages-themes/minimal@v0.2.0
 
-# Personnalisation du thème minimal
-minimal:
-  social_links:
-    email: najasthael@gmail.com
-    linkedin: naja-sthael-ferreira
-    github: najasthael
-
-# Paramètres d'affichage
-show_downloads: true
-google_analytics: false
-
-# En-tête et navigation
-header_pages:
-  - about.md
-  - projects.md
-  - cv.md
-
-# Marque personnelle
+# Informations personnelles
 author: "Naja Ferreira"
-avatar: "/assets/images/avatar.jpg"  # Créez ce dossier plus tard
 email: "najasthael@gmail.com"
 linkedin: "naja-sthael-ferreira"
 github: "najasthael"
 
-# Compétences techniques pour le SEO
-keywords: >
-  NLP, TAL, Machine Learning, Intelligence Artificielle, 
-  Linguistique Computationnelle, Python, Deep Learning,
-  Traitement Automatique des Langues, Grenoble, Stage NLP,
-  Ingénierie Linguistique, Transformers, Hugging Face
+# Configuration basique
+locale: "fr_FR"
+timezone: "Europe/Paris"
+future: false
 
-# Configuration avancée
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
+# Plugins essentiels
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
-sass:
-  style: compressed
+# Paramètres d'affichage
+show_downloads: false
+
+# SEO
+keywords: "NLP, TAL, Machine Learning, Intelligence Artificielle, Linguistique Computationnelle, Python, Deep Learning, Grenoble"
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
-
-# Permalinks
 permalink: pretty
 
-# Filtres et plugins personnalisés
-include:
-  - _pages
-
+# Exclusions
 exclude:
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
   - README.md
-  - LICENSE
-
-# Paramètres de déploiement
-safe: false
-
-# Internationalisation
-lang: fr
-
-# Réseaux sociaux (optionnel - pour extensions futures)
-twitter_username: 
-instagram_username: 
-facebook_username: 
-
-# Configuration des collections (pour projets)
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
-
-# Données par défaut
-defaults:
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "project"
-      show_in_nav: true
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-
-# Paramètres de performance
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  startings: []
-  blanklines: false
