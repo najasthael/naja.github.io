@@ -1,42 +1,4 @@
-# _config.yml
-
 title: "Naja Ferreira"
 description: "Étudiante en Master 2 TAL/NLP - Ingénierie Linguistique & Machine Learning"
-baseurl: ""
-url: "https://najasthael.github.io"
-
-# Thème (si vous utilisez Jekyll plus tard)
-theme: jekyll-theme-minimal
-
-# Informations personnelles
-author: "Naja Ferreira"
-email: "najasthael@gmail.com"
-linkedin: "naja-sthael-ferreira"
-github: "najasthael"
-
-# Configuration basique
-locale: "fr_FR"
-timezone: "Europe/Paris"
-future: false
-
-# Plugins essentiels
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Paramètres d'affichage
 show_downloads: false
-
-# SEO
-keywords: "NLP, TAL, Machine Learning, Intelligence Artificielle, Linguistique Computationnelle, Python, Deep Learning, Grenoble"
-
-# Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-
-# Exclusions
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
+theme: jekyll-theme-minimal
