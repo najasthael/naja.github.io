@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naja Ferreira - NLP Engineer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            line-height: 1.6; 
+            color: #333; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 2rem; 
+        }
+        .hero { 
+            background: white; 
+            border-radius: 15px; 
+            padding: 3rem; 
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        h1 { color: #2c3e50; margin-bottom: 1rem; }
+        h2 { color: #34495e; margin: 2rem 0 1rem 0; }
+        .subtitle { 
+            color: #7f8c8d; 
+            font-size: 1.3rem; 
+            margin-bottom: 2rem; 
+        }
+        .skills-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            gap: 1rem; 
+            margin: 2rem 0; 
+        }
+        .skill-category { 
+            background: #f8f9fa; 
+            padding: 1.5rem; 
+            border-radius: 10px; 
+            border-left: 4px solid #667eea;
+        }
+        .contact-links { 
+            display: flex; 
+            gap: 1rem; 
+            flex-wrap: wrap; 
+            margin-top: 2rem; 
+        }
+        .btn { 
+            background: #667eea; 
+            color: white; 
+            padding: 0.8rem 1.5rem; 
+            border-radius: 5px; 
+            text-decoration: none; 
+            transition: background 0.3s; 
+        }
+        .btn:hover { background: #764ba2; }
+        .projects { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+            gap: 2rem; 
+            margin-top: 2rem; 
+        }
+        .project-card { 
+            background: white; 
+            padding: 1.5rem; 
+            border-radius: 10px; 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>Naja Ferreira</h1>
+            <p class="subtitle">Étudiante en Master 2 Traitement Automatique des Langues</p>
+            <p>Passionnée par le NLP, le Machine Learning et l'Intelligence Artificielle. À la recherche d'un stage en ingénierie NLP.</p>
+            
+            <div class="contact-links">
+                <a href="mailto:najasthael@gmail.com" class="btn">📧 Email</a>
+                <a href="https://linkedin.com/in/naja-sthael-ferreira" class="btn">💼 LinkedIn</a>
+                <a href="https://github.com/najasthael" class="btn">🔗 GitHub</a>
+                <a href="CV_Naja_Ferreira.pdf" class="btn">📄 CV</a>
+            </div>
+        </div>
+
+        <div class="hero">
+            <h2>🛠 Compétences Techniques</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programmation</h3>
+                    <p>Python, SQL, Bash, JavaScript</p>
+                </div>
+                <div class="skill-category">
+                    <h3>NLP & ML</h3>
+                    <p>PyTorch, TensorFlow, Hugging Face, spaCy, NLTK</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Science</h3>
+                    <p>Pandas, Scikit-learn, Jupyter, Streamlit, Power BI</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Outils</h3>
+                    <p>Git, Docker, VS Code, MySQL, BeautifulSoup</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero">
+            <h2>🚀 Projets Réalisés</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Analyseur de Sentiments Marché</h3>
+                    <p>Analyse en temps réel des opinions marché via web scraping et NLP</p>
+                    <p><strong>Technos:</strong> Python, Transformers, Streamlit</p>
+                </div>
+                <div class="project-card">
+                    <h3>Assistant IA Juridique</h3>
+                    <p>Recherche sémantique dans des documents juridiques</p>
+                    <p><strong>Technos:</strong> CamemBERT, FAISS, FastAPI</p>
+                </div>
+                <div class="project-card">
+                    <h3>Vérification de Dictées</h3>
+                    <p>Plateforme de correction automatisée avec feedback</p>
+                    <p><strong>Technos:</strong> Flask, Speech Recognition</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero">
+            <h2>📊 GitHub Stats</h2>
+            <img src="https://github-readme-stats.vercel.app/api?username=najasthael&show_icons=true&theme=radical" alt="GitHub Stats">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=najasthael&layout=compact&theme=radical" alt="Top Languages">
+        </div>
+    </div>
+</body>
+</html>
