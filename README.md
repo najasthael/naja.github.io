@@ -6,10 +6,7 @@
 ---
 
 ## À Propos
-
-Passionnée par l'intersection entre la linguistique et l'intelligence artificielle. 
-Spécialisée en Natural Language Processing et Machine Learning. 
-À la recherche d'un stage en ingénierie NLP.
+Étudiante en Master 2 en Traitement Automatique des Langues, spécialisée en NLP et Machine Learning. Expérience pratique en développement Python, analyse de données linguistiques et déploiement de modèles. À la recherche d'un stage pour appliquer mes compétences en ingénierie NLP et contribuer à des projets innovants.
 
 ## Compétences Techniques
 
@@ -17,19 +14,30 @@ Spécialisée en Natural Language Processing et Machine Learning.
 - **Programmation:** Python, SQL, Git, Docker, Streamlit
 - **Data Science:** Pandas, Jupyter, BeautifulSoup, Power BI
 
+- **Langages & Bases de Données:** Python, SQL, Bash, HTML/JavaScript
+- **Machine Learning & Deep Learning:** PyTorch, TensorFlow, Keras, Scikit-learn
+- **NLP & Linguistique Computationnelle:**
+  - Modèles: Transformers (Hugging Face), CamemBERT, Flan-T5
+  - Bibliothèques: spaCy, NLTK
+  - Tâches: classification de texte, analyse de sentiments, génération, question-réponse
+- **Analyse de Données & Visualisation:** Power BI, Streamlit, Jupyter Notebook
+- **Outils & Méthodologies:** Git/GitHub, VS Code, web scraping (BeautifulSoup, requests)
+- **Traitement de Données:** TEI/XML, JSON, CSV, analyse de corpus (fréquence, spécificité, n-grammes), Excel (TCD, Power Query, formules avancées, openpyxl)
+
+
 ## Projets
 
-### Analyseur de Sentiments Marché
+### Analyseur d'Avis de Clients
 *Analyse d'opinions via NLP et web scraping*  
-**Technos:** Python, Transformers, Streamlit
+**Technologies:** Python, Transformers, Streamlit
 
-### Assistant IA Juridique  
-*Recherche sémantique dans documents juridiques*  
-**Technos:** CamemBERT, FAISS, FastAPI
+### Assistant Q&A Intelligent sur Documents
+*Extraction et analyse de texte avec question-answering par IA*  
+**Technologies:** Transformers, spaCy, PyTorch, Streamlit
 
 ### Plateforme de Vérification de Dictées
 *Correction automatisée avec feedback*  
-**Technos:** Flask, Speech Recognition
+**Technologies:** PHP, MySQL, JavaScript
 
 ## Contact
 
