@@ -2,7 +2,7 @@
 # Fine-Tuning Projet FAQ-Gouv                                                  #
 # Projet de Master 1 - Industrie de la langue - Université Grenoble-Alpes      #
 # Auteurs: Naja Ferreira et Marion Leteillier                                  #
-# Description: Script de l'entraînement du modèle flan-t5-small                #
+# Description: Script qui prépare le modèle flan-t5-small                      #
 ################################################################################
 
 from datasets import Dataset, DatasetDict
