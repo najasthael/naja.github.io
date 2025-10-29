@@ -97,7 +97,7 @@ if fichier is not None:
         st.stop()
     
     # tabs pour organiser l'interface
-    tab1, tab2, tab3 = st.tabs(["💬 Questions-Réponses", "📊 Analyse du texte", "📄 Texte brut"])
+    tab1, tab2, tab3 = st.tabs([" Questions-Réponses", " Analyse du texte", " Texte brut"])
     
     # TAB 1: Q&A
     with tab1:
@@ -109,14 +109,14 @@ if fichier is not None:
             key="question_input"
         )
         
-        if st.button("🔍 Rechercher la réponse", type="primary"):
+        if st.button(" Rechercher la réponse", type="primary"):
             if question:
                 with st.spinner("Recherche en cours..."):
                     # trouve la réponse
                     resultat = qa_engine.poser_question(question, texte)
                     
                     if resultat['score'] > 0:
-                        st.markdown("### 💡 Réponse trouvée:")
+                        st.markdown("###  Réponse trouvée:")
                         st.success(resultat['reponse'])
                         
                         # affiche le score de confiance
@@ -145,11 +145,11 @@ if fichier is not None:
         # statistiques basiques
         col1, col2, col3 = st.columns(3)
         with col1:
-            st.metric("📝 Caractères", f"{stats['nb_chars']:,}")
+            st.metric(" Caractères", f"{stats['nb_chars']:,}")
         with col2:
-            st.metric("📖 Mots", f"{stats['nb_mots']:,}")
+            st.metric(" Mots", f"{stats['nb_mots']:,}")
         with col3:
-            st.metric("💬 Phrases", f"{stats['nb_phrases']:,}")
+            st.metric(" Phrases", f"{stats['nb_phrases']:,}")
         
         st.markdown("---")
         
@@ -225,9 +225,9 @@ if fichier is not None:
 
 else:
     # page d'accueil quand pas de fichier
-    st.info("👈 Uploadez un document dans la barre latérale pour commencer")
+    st.info(" Uploadez un document dans la barre latérale pour commencer")
     
-    st.markdown("### 🎯 Fonctionnalités")
+    st.markdown("###  Fonctionnalités")
     col1, col2 = st.columns(2)
     
     with col1:
